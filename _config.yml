@@ -1,0 +1,34 @@
+title: 'PogoDev Blog'
+description: 'Latest news from the PogoDev team.'
+url: 'https://pogodev.org'
+baseurl: ''
+repository: 'pogodevorg/blog.pogodev.org'
+branch: 'master'
+
+excerpt_separator: '---'
+
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    style: compressed
+
+defaults:
+    - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:year/:month/:day/:title'}}
+
+exclude:
+    - bin
+    - README.md
+    - LICENSE.md
+    - CNAME
+    - Gemfile
+    - Gemfile.lock
+include:
+    - _pages
+    - favicons.ico
+
+gems:
+    - jekyll-sitemap
+    - jekyll-seo-tag
+    - jekyll-feed
+    - jemoji

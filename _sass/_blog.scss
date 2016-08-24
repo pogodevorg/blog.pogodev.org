@@ -1,0 +1,83 @@
+
+// Blog ------------------------------
+
+// Index
+
+.blog-index {
+  list-style: none;
+  margin-left: 0;
+}
+
+.blog-index-post {
+  margin-bottom: golden-ratio($base-font-size, 3);
+}
+
+.blog-index-link {
+  color: $main-color-strong;
+  &:hover {
+    text-decoration: none;
+    color: $main-link-color;
+  }
+}
+
+.who-when {
+  color: $main-color-subtle;
+  font-size: $base-font-size;
+  margin-top: golden-ratio($base-font-size, -3);
+  margin-bottom: golden-ratio($base-font-size, 1);
+
+  .fa { padding-right: golden-ratio($base-font-size, -2); }
+}
+
+.blog-index-time {
+  display: inline;
+}
+
+.author-link {
+  color: $main-color-subtle;
+  margin-left: golden-ratio($base-font-size, -1);
+
+  .avatar {
+    position: relative;
+    top: 4px;
+    border-radius: 2px;
+    height: 18px;
+    width: 18px;
+    margin-right: golden-ratio($base-font-size, -2);
+  }
+}
+
+// Post
+
+.blog-post {
+  h1 { margin-bottom: golden-ratio($base-font-size, 1); font-weight: 500; -webkit-font-smoothing: initial; }
+  h2 { margin-top: 2em;     font-weight: 500; -webkit-font-smoothing: initial; border-bottom: 1px solid $border-color; }
+  h3 { margin-top: 1.75em;  font-weight: 500; -webkit-font-smoothing: initial; }
+  h4 { margin-top: 1.5em;   font-weight: 500; }
+  h5 { margin-top: 1.25em;  }
+  h6 { margin-top: 1.125em; }
+
+  time {
+    display: inline;
+    /// margin-bottom: $spacer4;
+    color: $main-color-subtle;
+  }
+
+  // framed image
+  // to better distinguish white backgrounds
+  // add in MD with ![alt](path){: .screenshot }
+  .screenshot {
+    /// border: $border;
+    /// border-radius: $border-radius;
+    /// padding: $spacer2;
+    background-color: $main-bg-color-shade;
+  }
+
+  hr:first-of-type {
+    display: none;
+  }
+
+  a code {
+    color: $main-link-color;
+  }
+}

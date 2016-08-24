@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<section class='page-section blog-post strong-headers'>
+  <div class='container-narrow'>
+    <h1>{{ page.title }}</h1>
+
+    <div class="who-when">
+      <span class="fa fa-calendar"></span><time>{{ page.date | date: '%B %d, %Y' }}</time>
+      <a href="https://github.com/{{ page.author }}" class="author-link">
+        <img src="https://github.com/{{ page.author }}.png?size=36" alt="{{ page.author }}" class="avatar">{{ page.author }}
+      </a>
+      <a href="{{ site.baseurl }}/feed.xml" class="author-link">
+        <span class="fa fa-rss"></span>
+        <span class="label">RSS Feed</span>
+      </a>
+    </div>
+
+    {{ content }}
+
+  </div>
+</section>

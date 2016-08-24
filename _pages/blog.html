@@ -1,0 +1,39 @@
+---
+title: Blog
+permalink: /blog/
+layout: default
+excerpt: All the latest news from the PogoDev team and community.
+---
+
+<div class='page-header'>
+  <div class='container-narrow'>
+    <h1>{{ site.title }}</h1>
+    <p class="lead">
+      {{ site.description }}. <a href="{{ site.baseurl }}/feed.xml">RSS feed</a>.
+    </p>
+  </div>
+</div>
+
+<section class='page-section page-section-blog'>
+  <div class='container-narrow'>
+
+    <ul class="blog-index">
+      {% for post in site.posts %}
+        <li class="blog-index-post mb-4 mb-md-6 mb-lg-8">
+          <h2>
+            <a class="blog-index-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+
+            <div class="who-when">
+              <span class="fa fa-calendar"></span><time class="blog-index-time">{{ post.date | date: '%B %d, %Y' }}</time>
+              <a href="https://github.com/{{ post.author }}" class="author-link"><img src="https://github.com/{{ post.author }}.png?size=36" alt="{{ post.author }}" class="avatar">{{ post.author }}</a>
+            </div>
+          </h2>
+
+          {{ post.excerpt }}
+          <p><a href="{{ post.url | prepend: site.baseurl }}">Read more...</a></p>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+</section>
