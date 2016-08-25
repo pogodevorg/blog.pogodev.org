@@ -10,14 +10,14 @@ $medium-screen: 1068px;   // medium: 1068x890
 $xlarge-screen: 1442px;   // xlarge: 1442x1050
 
 // main
-$main-bg-color:       hsl($base-hue, 12%, 100%);
-$main-bg-color-shade: hsl($base-hue, 12%, 97%);
+$main-bg-color:       hsl($base-hue, 6%, 10%);
+$main-bg-color-shade: darken($main-bg-color, 2%);;
 $main-color-subtle:   hsl($base-hue, 12%, 54%);
-$main-color:          hsl($base-hue, 24%, 30%);
-$main-color-strong:   hsl($base-hue, 48%, 24%);
+$main-color:          hsl($base-hue, 3%, 40%);
+$main-color-strong:   hsl($base-hue, 0%, 80%);
 
 $main-border-color:   hsl($base-hue, 12%, 84%);
-$main-link-color:     hsl($base-hue, 44%, 54%);
+$main-link-color:     hsl($base-header-hue, 86%, 63%);
 
 // site header
 $header-bg-color:     hsl($base-hue, 6%, 10%);
