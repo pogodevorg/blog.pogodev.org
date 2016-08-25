@@ -4,13 +4,13 @@ layout: default
 
     <section class='page-section blog-post strong-headers'>
       <div class='container-narrow'>
+        <a href="/" class="author-link back-link">
+          <span class="fa fa-arrow-left"></span>
+          <span class="label">Back to the blog</span>
+        </a>
         <h1>{{ page.title }}</h1>
 
         <div class="who-when">
-          <a href="/" class="author-link back-link">
-            <span class="fa fa-arrow-left"></span>
-            <span class="label">Back to the blog</span>
-          </a>
           <span class="fa fa-calendar"></span><time>{{ page.date | date: '%B %d, %Y' }}</time>
           <a href="https://github.com/{{ page.author }}" class="author-link">
             <img src="https://github.com/{{ page.author }}.png?size=36" alt="{{ page.author }}" class="avatar">{{ page.author }}
