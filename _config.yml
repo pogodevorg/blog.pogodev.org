@@ -1,6 +1,6 @@
 title: 'PogoDev Blog'
 description: 'Latest news from the PogoDev team.'
-url: 'https://pogodev.org'
+url: 'https://blog.pogodev.org'
 baseurl: ''
 repository: 'pogodevorg/blog.pogodev.org'
 branch: 'master'
