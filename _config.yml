@@ -14,7 +14,7 @@ sass:
     style: compressed
 
 defaults:
-    - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:year/:month/:day/:title'}}
+    - {scope: {type: posts}, values: {layout: post, permalink: '/:year/:month/:day/:title'}}
 
 exclude:
     - bin
