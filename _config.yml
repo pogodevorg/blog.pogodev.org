@@ -1,7 +1,9 @@
 title: 'PogoDev Blog'
-description: 'Latest news from the PogoDev team.'
+description: 'Latest news from the PogoDev Team.'
 url: 'https://blog.pogodev.org'
 baseurl: ''
+homepage: 'https://pogodev.org'
+homepagetitle: 'PogoDev'
 repository: 'pogodevorg/blog.pogodev.org'
 branch: 'master'
 
