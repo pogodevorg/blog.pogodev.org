@@ -47,6 +47,18 @@
   }
 }
 
+.back-link,
+.rss-link {
+  color: $link-color;
+}
+
+.back-link {
+  display: block;
+  margin-left: 0;
+  margin-bottom: golden-ratio($base-font-size, -1);
+  font-weight: bold;
+}
+
 // Post
 
 .blog-post {
