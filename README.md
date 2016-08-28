@@ -1,6 +1,6 @@
 [![POGODEV](https://github.com/pogodevorg/assets/blob/master/public/img/logo-github.png?raw=true)](https://pogodev.org)
 
-# blog.pogodev.org [![Build Status](https://img.shields.io/travis/pogodevorg/blog.pogodev.org/master.svg)](https://img.shields.io/travis/pogodevorg/blog.pogodev.org) [![Coverage Status](https://coveralls.io/repos/github/pogodevorg/blog.pogodev.org/badge.svg?branch=master)](https://coveralls.io/github/pogodevorg/blog.pogodev.org?branch=master) [![license](https://img.shields.io/github/license/pogodevorg/blog.pogodev.org.svg?maxAge=2592000?style=flat-square)](#)
+# blog.pogodev.org [![Build Status](https://travis-ci.org/pogodevorg/blog.pogodev.org.svg?branch=master)](https://travis-ci.org/pogodevorg/blog.pogodev.org) [![Code Climate](https://codeclimate.com/github/pogodevorg/blog.pogodev.org/badges/gpa.svg)](https://codeclimate.com/github/pogodevorg/blog.pogodev.org) [![Test Coverage](https://codeclimate.com/github/pogodevorg/blog.pogodev.org/badges/coverage.svg)](https://codeclimate.com/github/pogodevorg/blog.pogodev.org/coverage) [![Issue Count](https://codeclimate.com/github/pogodevorg/blog.pogodev.org/badges/issue_count.svg)](https://codeclimate.com/github/pogodevorg/blog.pogodev.org) [![license](https://img.shields.io/github/license/pogodevorg/blog.pogodev.org.svg?maxAge=2592000?style=flat-square)](#)
 
 ## Table of Contents
 * [What is it?](#what-is-it)
