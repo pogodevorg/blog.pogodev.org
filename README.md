@@ -1,12 +1,12 @@
 [![POGODEV](https://github.com/pogodevorg/assets/blob/master/public/img/logo-github.png?raw=true)](https://pogodev.org)
 
-# blog.pogodev.org [![Build Status](https://img.shields.io/travis/pogodev/blog.pogodev.org/master.svg)](https://img.shields.io/travis/pogodev/blog.pogodev.org) [![Coverage Status](https://coveralls.io/repos/github/pogodevorg/blog.pogodev.org/badge.svg?branch=master)](https://coveralls.io/github/pogodevorg/blog.pogodev.org?branch=master) [![license](https://img.shields.io/github/license/pogodevorg/blog.pogodev.org.svg?maxAge=2592000?style=flat-square)](#)
+# blog.pogodev.org [![Build Status](https://img.shields.io/travis/pogodevorg/blog.pogodev.org/master.svg)](https://img.shields.io/travis/pogodevorg/blog.pogodev.org) [![Coverage Status](https://coveralls.io/repos/github/pogodevorg/blog.pogodev.org/badge.svg?branch=master)](https://coveralls.io/github/pogodevorg/blog.pogodev.org?branch=master) [![license](https://img.shields.io/github/license/pogodevorg/blog.pogodev.org.svg?maxAge=2592000?style=flat-square)](#)
 
 ## Table of Contents
-
 * [What is it?](#what-is-it)
 * [Installation](#installation)
   * [Requirements](#requirements)
+  * [Instructions](#instructions)
 * [Documentation](#documentation)
 * [Contributing](#contributing)
   * [Core Maintainers](#core-maintainers)
@@ -23,6 +23,7 @@
 - Linux / OSX
 - Ruby (> 2.0)
 
+### Instructions
 Set up your project in your code directory
 ```
 git clone https://github.com/pogodevorg/blog.pogodev.org.git
